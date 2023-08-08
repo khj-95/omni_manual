@@ -2,7 +2,9 @@
 
 * [OmniAgent](README.md)
 * [준비하기](undefined.md)
-* [AGENT INSTALL](agent-install.md)
+* [설치/실행/제거하기](undefined-4/README.md)
+  * [Linux/Unix](undefined-4/linux-unix.md)
+  * [Windows](undefined-4/windows.md)
 
 ## 환경설정
 
@@ -22,12 +24,6 @@
 * [callback](undefined-3/callback.md)
 * [ha mode](undefined-3/ha-mode.md)
 * [UTIL](undefined-3/util.md)
-
-***
-
-* [설치/실행/제거하기](undefined-4/README.md)
-  * [Linux/Unix](undefined-4/linux-unix.md)
-  * [Windows](undefined-4/windows.md)
 
 ## 전송하기
 
