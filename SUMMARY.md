@@ -1,20 +1,21 @@
 # Table of contents
 
 * [OmniAgent](README.md)
-* [준비하기](undefined.md)
+* [성능](undefined.md)
+* [준비하기](undefined-1.md)
 * [설치/실행/제거하기](undefined-4/README.md)
   * [Linux/Unix](undefined-4/linux-unix.md)
   * [Windows](undefined-4/windows.md)
 
 ## 환경설정
 
-* [MESSAGE CONFIGURATION(msgConfig.yml)](undefined-1/message-configuration.md)
-* [DB CONFIGURATION(dbConfig.yml)](undefined-1/db-configuration.md)
-* [LOG 설정파일 (logback.xml)](undefined-1/log-logback.xml.md)
+* [MESSAGE CONFIGURATION(msgConfig.yml)](undefined-2/message-configuration.md)
+* [DB CONFIGURATION(dbConfig.yml)](undefined-2/db-configuration.md)
+* [LOG 설정파일 (logback.xml)](undefined-2/log-logback.xml.md)
 
 ***
 
-* [디렉토리 구조](undefined-2.md)
+* [디렉토리 구조](undefined-2-1.md)
 * [TABLE SCHEMA](table-schema.md)
 
 ## 기능
