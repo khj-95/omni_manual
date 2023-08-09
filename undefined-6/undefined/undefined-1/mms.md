@@ -4,7 +4,7 @@ description: MMS 전송
 
 # MMS
 
-* MMS 최대 2,000byte(제목 40byte) 까지 전송 가능 합니다.
+* MMS 최대 2,000bytes(제목 40bytes) 까지 전송 가능 합니다.
 * MMS 이미지 메시지를 전송할 경우 사전에 이미지 파일 등록이 필요 합니다. 이미지 생성을 위해서는 '[FILE UPLOAD API](https://omniapi.gitbook.io/omni-api-specification/api-reference/registration/file)' 를 참조해 주세요. (MMS 이미지의 유효기간은 7일 입니다.)
 
 ## 전송 관련 컬럼

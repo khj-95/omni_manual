@@ -11,7 +11,7 @@ description: 이중화 기능에 관한 설명입니다.
 
 ## 모드 관련 설정
 
-[#ha-mode](../undefined-2/message-configuration.md#ha-mode "mention")
+[#ha-mode](../undefined-1/message-configuration.md#ha-mode "mention")
 
 ## 설정 용례
 

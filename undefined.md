@@ -1,19 +1,41 @@
 ---
-description: Agent 성능 측정 결과입니다.
+description: Agent를 사용하기 위한 요구사항입니다.
 ---
 
-# 성능
+# 준비하기
 
-## 테스트 조건
+## 계정 및 설치파일
 
-### **메시지 건수**: 50만 건
+영업 담당자로부터 접속 계정 정보를 제공받아야 합니다.
 
-* 3개의 통합 메시지:  20만 건
-* 2개의 통합 메시지: 20만 건
-* 단 건 발송 메시지: 10만 건
+인포뱅크 비즈고 사이트에 접속하여 사용자 시스템에 맞는 설치파일을 다운로드 합니다.
 
-### **send session 개수**: 20개
+## 데이터베이스 접속 계정 및 권한
 
-## 테스트 결과
+에이전트가 설치되는 서버에서 접속 가능 한 데이터베이스 계정 정보와 테이블 권한(SELECT/UPDATE/DELETE/CREATE)이 필요합니다.
 
-<table data-full-width="true"><thead><tr><th>DB</th><th>세션수</th><th>시작 시간</th><th>종료 시간</th><th>진행 시간</th><th>진행 시간(분)</th><th>평균</th><th>전체 평균</th></tr></thead><tbody><tr><td>Oracle</td><td>20개</td><td>16:37:17</td><td>16:49:50</td><td>0:12:33</td><td>12.55</td><td>39841</td><td>39841</td></tr><tr><td>Mysql</td><td>20개</td><td>16:27:20</td><td>16:40:52</td><td>0:13:32</td><td>13.533</td><td>36946</td><td>36946</td></tr><tr><td>Mssql</td><td>20개</td><td>23:16:25</td><td>23:30:44</td><td>0:14:19</td><td>14.317</td><td>34924</td><td>34924</td></tr></tbody></table>
+## 시스템 요구사항
+
+SYSTEM
+
+| 구분         | 설치 시 필요 환경           |
+| ---------- | -------------------- |
+| Linux/Unix | java(JDK/JRE) 8.0 이상 |
+| Windows    | java(JDK/JRE) 8.0 이상 |
+
+DATABASE
+
+| VENDER               |
+| -------------------- |
+| Oracle               |
+| Microsoft SQL Server |
+| MySQL                |
+| PostgreSQL           |
+| MariaDB              |
+| Tibero               |
+
+## 네트워크 방화벽 허용
+
+> [https://omni.ibapi.kr](https://omni.ibapi.kr)
+
+API 요청을 위해 OMNI API BaseURL에 방화벽 허용(Outbound)이 필요합니다.
