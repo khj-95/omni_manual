@@ -6,17 +6,17 @@
 
 ################################################################################
 #                                                                              
-# Bizgo connection Configuration Information                                            
+# IBAPI connection Configuration Information                                            
 #-------------------------------------------------------------------------------
-# NOTE: 이것은 비즈고 connect 관련 정보이다.                                 
+# NOTE: 이것은 IBAPI connect 관련 정보이다.                                 
 #                                                                              
 ################################################################################
 url: 
-  tokenRequest: https://omni.bizgo.io/auth/token
-  sendRequest: https://omni.bizgo.io/send/omni
-  reportRequest: https://omni.bizgo.io/report/polling
-  sendInternationalRequest: https://omni.bizgo.io/send/international
-  fileUploadRequest: https://omni.bizgo.io/file
+  tokenRequest: https://omni.ibapi.kr/v1/auth/token
+  sendRequest: https://omni.ibapi.kr/v1/send/omni
+  reportRequest: https://omni.ibapi.kr/v1/report/polling
+  sendInternationalRequest: https://omni.ibapi.kr/v1/send/international
+  fileUploadRequest:  https://omni.ibapi.kr/v1/file
 
 # 에이전트 계정 정보
 auth:
@@ -25,8 +25,6 @@ auth:
   originCID: 계정RIGINCID(선택)
 
 ```
-
-
 
 ## PROCESS
 
@@ -115,7 +113,7 @@ send:
   tps: 400
   #-----------------------------------------------------------------------------
   # send 세션 연결 개수 설정
-  # min 1 max 20 
+  # min 1 max 40 
   # default 10
   #----------------------------------------------------------------------------- 
   session: 
@@ -165,8 +163,6 @@ logMigrate:
   limit:
     cnt: 300
 ```
-
-
 
 ## SCHEDULER
 
@@ -256,8 +252,6 @@ scheduler:
     interval: 60000
 ```
 
-
-
 ## 중복발송
 
 ```yaml
@@ -281,8 +275,6 @@ dupcheck:
   cacheInterval: 60 
 ```
 
-
-
 ## ETC
 
 ```yaml
@@ -301,8 +293,6 @@ log:
     personalInfo: 
       hide: 0
 ```
-
-
 
 ## HA MODE
 
@@ -344,8 +334,6 @@ ha:
 #-------------------------------------------------------------------------------
     initialDelay: 5000    
 ```
-
-
 
 ## USER LIBRARY
 
