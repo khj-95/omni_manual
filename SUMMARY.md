@@ -8,8 +8,8 @@
 
 ## 환경설정
 
-* [MESSAGE CONFIGURATION](undefined-1/message-configuration.md)
-* [DB CONFIGURATION](undefined-1/db-configuration.md)
+* [MESSAGE CONFIGURATION(msgConfig.yml)](undefined-1/message-configuration.md)
+* [DB CONFIGURATION(dbConfig.yml)](undefined-1/db-configuration.md)
 * [LOG 설정파일 (logback.xml)](undefined-1/log-logback.xml.md)
 
 ***

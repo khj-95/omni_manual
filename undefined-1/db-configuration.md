@@ -1,4 +1,8 @@
-# DB CONFIGURATION
+---
+description: config 폴더 내부 dbConfig.yml 설정정보입니다.
+---
+
+# DB CONFIGURATION(dbConfig.yml)
 
 ## DBMS Connect (JDBC Setting)
 
@@ -44,4 +48,3 @@
     seperate:
       yn: Y
 ```
-

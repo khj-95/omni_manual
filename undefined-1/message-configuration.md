@@ -1,4 +1,8 @@
-# MESSAGE CONFIGURATION
+---
+description: config 폴더 내부 msgConfig.yml 설정정보입니다.
+---
+
+# MESSAGE CONFIGURATION(msgConfig.yml)
 
 ## Bizgo Connect
 
