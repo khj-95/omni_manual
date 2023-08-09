@@ -14,22 +14,20 @@ description: 메시지 별로 순차 Fallback 처리해주는 통합메시지를
 
 ## 예제
 
-1.  alimtalk 실패 시 sms 발송 (alimtalk,sms)
-
-    {% code fullWidth="true" %}
-    ```sql
-    insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_template_code, mt_content) 
-    values (sq_msg_tran_01.nextval, 'alimtalk,sms', sysdate, '발신번호', '수신번호', 'AT', 'alimtalk-AT-nobutton 버튼 없는 알림톡 문자 테스트입니다.', '발신프로필키', '템플릿코드', 'sms 문자 테스트입니다.');
-    ```
-    {% endcode %}
-2. alimtalk 실패 시 rcs 발송. rcs 실패 시 sms 발송 (alimtalk,rcs,sms)
+1. alimtalk 실패 시 sms 발송 (alimtalk,sms)
 
 {% code fullWidth="true" %}
-````
+```sql
+insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_template_code, mt_content) 
+values (sq_msg_tran_01.nextval, 'alimtalk,sms', sysdate, '발신번호', '수신번호', 'AT', 'alimtalk-AT-nobutton 버튼 없는 알림톡 문자 테스트입니다.', '발신프로필키', '템플릿코드', 'sms 문자 테스트입니다.');
+```
+{% endcode %}
+
+1. alimtalk 실패 시 rcs 발송. rcs 실패 시 sms 발송 (alimtalk,rcs,sms)
+
+{% code fullWidth="true" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_template_code, rcs_content, rcs_msgbase_id, rcs_brand_key, mt_content) 
-values (sq_msg_tran_01.nextval, 'alimtalk,rcs,sms', sysdate, '발신번호', '수신번호', 'AT', 'alimtalk-AT-nobutton 버튼 없는 알림톡 문자 테스트입니다.', '발신프로필키', '템플릿코드', 
-'RCS_content입력', 'RCS메시시베이스ID(템플릿코드)', 'RCS브랜드키', 'sms 문자 테스트입니다.(RCS 페일백)');
+values (sq_msg_tran_01.nextval, 'alimtalk,rcs,sms', sysdate, '발신번호', '수신번호', 'AT', 'alimtalk-AT-nobutton 버튼 없는 알림톡 문자 테스트입니다.', '발신프로필키', '템플릿코드', 'RCS_content입력', 'RCS메시시베이스ID(템플릿코드)', 'RCS브랜드키', 'sms 문자 테스트입니다.(RCS 페일백)');
 ```
-````
 {% endcode %}

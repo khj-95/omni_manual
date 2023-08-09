@@ -10,7 +10,7 @@ description: SMS 전송
 
 ### **필수 입력 컬럼**
 
-<table><thead><tr><th width="160">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>callback</td><td>발신번호</td></tr><tr><td>mt_content</td><td>문자 내용 입력정보</td></tr></tbody></table>
+<table><thead><tr><th width="190.44444444444446">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>callback</td><td>발신번호</td></tr><tr><td>mt_content</td><td>문자 내용 입력정보</td></tr></tbody></table>
 
 ### 예제(Oracle)
 

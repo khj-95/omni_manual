@@ -15,19 +15,19 @@ description: AGENT의 메시지 전송 이외의 기능에 대한 설명입니�
 
 #### **예제**
 
-```
+```sql
 # MMS 파일 업로드
-insert into file_upload (file_path, channel_type) values ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/test.jpg', 'MMS');
+INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/test.jpg', 'MMS');
 ```
 
-```
+```sql
 # RCS 파일 업로드
-insert into file_upload (file_path, channel_type) values ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/test.jpg', 'RCS');
+INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/test.jpg', 'RCS');
 ```
 
-```
+```sql
 # FRIENDTALK 파일 업로드
-insert into file_upload (file_path, channel_type, msg_type) values ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/infobank_fi.jpg', 'FRIENDTALK', 'FI');
+INSERT INTO FILE_UPLOAD (file_path, channel_type, msg_type) VALUES ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/infobank_fi.jpg', 'FRIENDTALK', 'FI');
 ```
 
 ## 테이블 생성
@@ -50,11 +50,11 @@ insert into file_upload (file_path, channel_type, msg_type) values ('D:/MySource
 
 #### 예제
 
-```
+```sql
 # 수신번호 차단
 INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'R','수신번호','Y');
 ```
 
-<pre><code># 메시지 내용 차단
+<pre class="language-sql"><code class="lang-sql"># 메시지 내용 차단
 <strong>INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'T','차단내용','Y');
 </strong></code></pre>

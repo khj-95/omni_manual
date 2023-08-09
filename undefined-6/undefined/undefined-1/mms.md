@@ -11,11 +11,11 @@ description: MMS 전송
 
 ### **필수 입력 컬럼**
 
-<table><thead><tr><th width="160">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>callback</td><td>발신번호</td></tr><tr><td>mt_content</td><td>문자 내용 입력정보</td></tr><tr><td>mt_subject</td><td>문자 제목 입력정보</td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="182.44444444444446">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>callback</td><td>발신번호</td></tr><tr><td>mt_content</td><td>문자 내용 입력정보</td></tr><tr><td>mt_subject</td><td>문자 제목 입력정보</td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ### **선택 입력 컬럼**
 
-<table><thead><tr><th width="160">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>mt_file_key</td><td><ul><li>전송할 이미지 파일키 입력정보</li><li>',' 구분자를 통해 최대 3개의 이미지 파일키를 입력할 수 있다.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="184.44444444444446">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>mt_file_key</td><td><ul><li>전송할 이미지 파일키 입력정보</li><li>',' 구분자를 통해 최대 3개의 이미지 파일키를 입력할 수 있다.</li></ul></td></tr></tbody></table>
 
 ## 예제(Oracle)
 

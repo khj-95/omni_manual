@@ -16,4 +16,4 @@ description: 사용자 함수
 <pre class="language-java"><code class="lang-java"><strong>Boolean doTransform(IBUserObject userObject)
 </strong></code></pre>
 
-<table><thead><tr><th width="173">doTransform</th><th>전송 데이터 조회 후 변환된 데이터를 return 받기 위해 호출되는 메소드</th></tr></thead><tbody><tr><td>Parameter</td><td>userObject: 참조 개체<br>채널 별 content, 수신번호, mms 제목을 포함하여 그 외의 여분 필드 10개</td></tr><tr><td>Return</td><td>boolean</td></tr><tr><td>class#method</td><td>ib.omni.agent.util#getMaskingPersonalInfo(String): LOG에 수신 번호 표출 시 마스킹 처리</td></tr></tbody></table>
+<table><thead><tr><th width="155.92761394101876">doTransform</th><th>전송 데이터 조회 후 변환된 데이터를 return 받기 위해 호출되는 메소드</th></tr></thead><tbody><tr><td>Parameter</td><td>userObject: 참조 개체<br>채널 별 content, 수신번호, mms 제목을 포함하여 그 외의 여분 필드 10개</td></tr><tr><td>Return</td><td>boolean</td></tr><tr><td>class#method</td><td>ib.omni.agent.util#getMaskingPersonalInfo(String): LOG에 수신 번호 표출 시 마스킹 처리</td></tr></tbody></table>
