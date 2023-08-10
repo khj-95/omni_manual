@@ -22,14 +22,14 @@ description: KKO 상세 메시지 타입 별 예제입니다.
   * 버튼타입 : 메시지전달-MD
   * 버튼명 : 메시지확인
 
-{% code title="alimtalk-AT, nobutton" overflow="wrap" fullWidth="true" %}
+{% code title="alimtalk-AT, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_template_code) 
 values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번호', 'AT', 'Test Message 입니다.', 'aaaaa22222bbbbb33333ccccc44444ddddd55555', 'INFO_001');
 ```
 {% endcode %}
 
-{% code title="alimtalk-AT, button" overflow="wrap" fullWidth="true" %}
+{% code title="alimtalk-AT, button" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_template_code, kko_option) 
 values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번호', 'AT', 'Test Message 입니다.', 'aaaaa22222bbbbb33333ccccc44444ddddd55555', 'INFO_001', 
@@ -48,14 +48,14 @@ values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번�
 ```
 {% endcode %}
 
-{% code title="alimtalk-AI, nobutton" overflow="wrap" fullWidth="true" %}
+{% code title="alimtalk-AI, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_template_code) 
 values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번호', 'AI', 'Test Message 입니다.', 'aaaaa22222bbbbb33333ccccc44444ddddd55555', 'INFO_001');
 ```
 {% endcode %}
 
-{% code title="alimtalk-AI, button" overflow="wrap" fullWidth="true" %}
+{% code title="alimtalk-AI, button" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_template_code, kko_option) 
 values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번호', 'AI', 'Test Message 입니다.', 'aaaaa22222bbbbb33333ccccc44444ddddd55555', 'INFO_001',
@@ -78,14 +78,14 @@ values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번�
 ```
 {% endcode %}
 
-{% code title="friendtalk-FT, nobutton" overflow="wrap" fullWidth="true" %}
+{% code title="friendtalk-FT, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key) 
 values (sq_msg_tran_01.nextval, 'friendtalk', sysdate, '발신번호', '수신번호', 'FT', 'Test Message 입니다.', 'aaaaa22222bbbbb33333ccccc44444ddddd55555');
 ```
 {% endcode %}
 
-{% code title="friendtalk-FI, nobutton" overflow="wrap" fullWidth="true" %}
+{% code title="friendtalk-FI, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_option) 
 values (sq_msg_tran_01.nextval, 'friendtalk', sysdate, '발신번호', '수신번호', 'FI', 'Test Message 입니다.', 'aaaaa22222bbbbb33333ccccc44444ddddd55555',
@@ -100,7 +100,7 @@ values (sq_msg_tran_01.nextval, 'friendtalk', sysdate, '발신번호', '수신�
 ```
 {% endcode %}
 
-{% code title="friendtalk-FW, nobutton" overflow="wrap" fullWidth="true" %}
+{% code title="friendtalk-FW, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, kko_msg_type, kko_content, kko_sender_key, kko_option) 
 values (sq_msg_tran_01.nextval, 'friendtalk', sysdate, '발신번호', '수신번호', 'FW', 'Test Message 입니다.', 'aaaaa22222bbbbb33333ccccc44444ddddd55555',

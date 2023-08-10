@@ -6,7 +6,7 @@ description: RCS 상세 메시지 타입 별 예제입니다.
 
 ### SMS
 
-{% code title="standalone, rcs_msgbase_id: SS000000" overflow="wrap" fullWidth="true" %}
+{% code title="standalone, rcs_msgbase_id: SS000000" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_content, rcs_msgbase_id, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 'rcs-standalone-SS000000 RCS SMS 문자 테스트입니다.', 'SS000000', 'RCS브랜드키');
@@ -15,7 +15,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### LMS
 
-{% code title="standalone, rcs_msgbase_id: SL000000" overflow="wrap" fullWidth="true" %}
+{% code title="standalone, rcs_msgbase_id: SL000000" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 'SL000000', 
@@ -30,7 +30,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### MMS-TALL IMG
 
-{% code title="standalone, rcs_msgbase_id: SMwThT00" overflow="wrap" fullWidth="true" %}
+{% code title="standalone, rcs_msgbase_id: SMwThT00" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 'SMwThT00', 
@@ -53,7 +53,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### MMS-MEDIUM IMG
 
-{% code title="standalone, rcs_msgbase_id: SMwThM00" overflow="wrap" fullWidth="true" %}
+{% code title="standalone, rcs_msgbase_id: SMwThM00" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 'SMwThM00', 
@@ -75,7 +75,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### MMS(CAROUSEL), CARD 3
 
-{% code title="carousel, rcs_msg_base_id: CMwMhM0300" overflow="wrap" fullWidth="true" %}
+{% code title="carousel, rcs_msg_base_id: CMwMhM0300" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 'CMwMhM0300', 
@@ -124,7 +124,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### MMS(CAROUSEL), CARD 4
 
-{% code title="carousel, rcs_msg_base_id: CMwMhM0400" overflow="wrap" fullWidth="true" %}
+{% code title="carousel, rcs_msg_base_id: CMwMhM0400" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 'CMwMhM0400', 
@@ -185,7 +185,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### MMS(CAROUSEL), CARD 5
 
-{% code title="carousel, rcs_msg_base_id: CMwMhM0500" overflow="wrap" fullWidth="true" %}
+{% code title="carousel, rcs_msg_base_id: CMwMhM0500" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 'CMwMhM0500', 
@@ -258,7 +258,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### MMS(CAROUSEL), CARD 6
 
-{% code title="carousel, rcs_msg_base_id: CMwMhM0600" overflow="wrap" fullWidth="true" %}
+{% code title="carousel, rcs_msg_base_id: CMwMhM0600" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 'CMwMhM0600', 
@@ -343,7 +343,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### FREE-TEMPLATE
 
-{% code title="template-free, rcs_msg_base_id: UBR.JSUUE931f5-GG000F" overflow="wrap" fullWidth="true" %}
+{% code title="template-free, rcs_msg_base_id: UBR.JSUUE931f5-GG000F" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', '발급받은템플릿아이디', 
@@ -357,7 +357,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### FREE-DESCRIPTION
 
-{% code title="template-description, rcs_msg_base_id: UBR.JSUUE931f5-Deposit20191220" overflow="wrap" fullWidth="true" %}
+{% code title="template-description, rcs_msg_base_id: UBR.JSUUE931f5-Deposit20191220" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', '발급받은템플릿아이디', 
@@ -371,7 +371,7 @@ values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', 
 
 ### FREE-CELL
 
-{% code title="template-cell, rcs_msg_base_id: UBR.JSUUE931f5-ProductOrder20191220" overflow="wrap" fullWidth="true" %}
+{% code title="template-cell, rcs_msg_base_id: UBR.JSUUE931f5-ProductOrder20191220" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, rcs_msgbase_id, rcs_content, rcs_brand_key) 
 values (sq_msg_tran_01.nextval, 'rcs', sysdate, '발신번호', '수신번호', '발급받은템플릿아이디', 

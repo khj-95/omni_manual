@@ -15,20 +15,23 @@ description: AGENT의 메시지 전송 이외의 기능에 대한 설명입니�
 
 ### **예제(ORACLE)**
 
+{% code title="MMS 파일 업로드" overflow="wrap" %}
 ```sql
-# MMS 파일 업로드
 INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/omniAgent-1.0.0/attachfile/test.jpg', 'MMS');
 ```
+{% endcode %}
 
+{% code title="RCS 파일 업로드" overflow="wrap" %}
 ```sql
-# RCS 파일 업로드
 INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/omniAgent-1.0.0/attachfile/test.jpg', 'RCS');
 ```
+{% endcode %}
 
+{% code title="FRIENDTALK 파일 업로드" overflow="wrap" %}
 ```sql
-# FRIENDTALK 파일 업로드
 INSERT INTO FILE_UPLOAD (file_path, channel_type, msg_type) VALUES ('D:/omniAgent-1.0.0/attachfile/infobank_fi.jpg', 'FRIENDTALK', 'FI');
 ```
+{% endcode %}
 
 ## 발송 차단 설정
 
@@ -39,13 +42,13 @@ INSERT INTO FILE_UPLOAD (file_path, channel_type, msg_type) VALUES ('D:/omniAgen
 
 ### 예제(ORACLE)
 
+{% code title="수신번호 차단" overflow="wrap" %}
 ```sql
-# 수신번호 차단
 INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'R','차단할수신번호','Y');
 ```
+{% endcode %}
 
-<pre class="language-sql"><code class="lang-sql"># 메시지 내용 차단
-<strong>INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'T','차단내용','Y');
+<pre class="language-sql" data-title="메시지 내용 차단" data-overflow="wrap"><code class="lang-sql"><strong>INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'T','차단내용','Y');
 </strong></code></pre>
 
 ## 테이블 생성

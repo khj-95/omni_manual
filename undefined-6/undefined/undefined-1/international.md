@@ -11,7 +11,7 @@
 
 ## 예제(Oracle)
 
-{% code overflow="wrap" fullWidth="true" %}
+{% code overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, mt_content) 
 values (sq_msg_tran_01.nextval, 'international', sysdate, '발신번호', '수신번호', 'international 국제 문자 테스트입니다.');

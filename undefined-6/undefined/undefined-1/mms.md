@@ -11,7 +11,7 @@ description: MMS 전송
 
 ### **필수 입력 컬럼**
 
-<table><thead><tr><th width="182.44444444444446">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>callback</td><td>발신번호</td></tr><tr><td>mt_content</td><td>문자 내용 입력정보</td></tr><tr><td>mt_subject</td><td>문자 제목 입력정보</td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="182.44444444444446">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>callback</td><td>발신번호</td></tr><tr><td>mt_content</td><td>문자 내용 입력정보</td></tr><tr><td>mt_subject</td><td>문자 제목 입력정보</td></tr></tbody></table>
 
 ### **선택 입력 컬럼**
 
@@ -19,14 +19,14 @@ description: MMS 전송
 
 ## 예제(Oracle)
 
-{% code title="file 있는 mms" overflow="wrap" fullWidth="true" %}
+{% code title="file 있는 mms" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, mt_content, mt_subject, mt_file_key) 
 values (sq_msg_tran_01.nextval, 'mms', sysdate, '발신번호', '수신번호', '문자내용', '문자제목', '파일키');
 ```
 {% endcode %}
 
-{% code title="file 없는 mms" overflow="wrap" fullWidth="true" %}
+{% code title="file 없는 mms" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, mt_content, mt_subject) 
 values (sq_msg_tran_01.nextval, 'mms', sysdate, '발신번호', '수신번호' , '문자내용', '문자제목');
