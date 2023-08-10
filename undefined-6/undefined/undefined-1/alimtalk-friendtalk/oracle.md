@@ -22,7 +22,7 @@ description: KKO 상세 메시지 타입 별 예제입니다.
   * 버튼 타입 : 메시지전달-MD
   * 버튼명 : 메시지확인
 
-#### 알림톡 - 버튼 없음
+### 알림톡 - 버튼 없음
 
 {% code title="alimtalk-AT, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
@@ -31,7 +31,7 @@ values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번�
 ```
 {% endcode %}
 
-#### 알림톡 - 버튼 있음
+### 알림톡 - 버튼 있음
 
 {% code title="alimtalk-AT, button" overflow="wrap" fullWidth="false" %}
 ```sql
@@ -52,7 +52,7 @@ values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번�
 ```
 {% endcode %}
 
-#### 알림톡 이미지 - 버튼 없음
+### 알림톡 이미지 - 버튼 없음
 
 {% code title="alimtalk-AI, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
@@ -61,7 +61,7 @@ values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번�
 ```
 {% endcode %}
 
-#### 알림톡 이미지 - 버튼 있음
+### 알림톡 이미지 - 버튼 있음
 
 {% code title="alimtalk-AI, button" overflow="wrap" fullWidth="false" %}
 ```sql
@@ -86,7 +86,7 @@ values (sq_msg_tran_01.nextval, 'alimtalk', sysdate, '발신번호', '수신번�
 ```
 {% endcode %}
 
-#### 친구톡 - 버튼 없음
+### 친구톡 - 버튼 없음
 
 {% code title="friendtalk-FT, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
@@ -95,7 +95,7 @@ values (sq_msg_tran_01.nextval, 'friendtalk', sysdate, '발신번호', '수신�
 ```
 {% endcode %}
 
-#### 친구톡 이미지 - 버튼 없음
+### 친구톡 이미지 - 버튼 없음
 
 {% code title="friendtalk-FI, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
@@ -112,7 +112,7 @@ values (sq_msg_tran_01.nextval, 'friendtalk', sysdate, '발신번호', '수신�
 ```
 {% endcode %}
 
-#### 친구톡 와이드 이미지 - 버튼 없음
+### 친구톡 와이드 이미지 - 버튼 없음
 
 {% code title="friendtalk-FW, nobutton" overflow="wrap" fullWidth="false" %}
 ```sql
