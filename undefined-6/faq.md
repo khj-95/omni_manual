@@ -29,8 +29,7 @@ Windows에서 여러 EMMA를 설치 시 서비스 명이 동일하기 때문에 
 #### Windows 서비스 수동 등록 방법
 
 ```
-- sc create OMNI_SVC1 binpath= "C:\Infobank\OMNI-1.0.0\omnisvc.exe" 
-displayName= "OMNI_SVC1" type= own start= auto
+- sc create OMNI_SVC1 binpath= "C:\Infobank\OMNI-1.0.0\omnisvc.exe" displayName= "OMNI_SVC1" type= own start= auto
 - sc delete OMNI_SVC1
 ```
 
