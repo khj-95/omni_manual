@@ -40,3 +40,4 @@
     * [INTERNATIONAL](undefined-6/undefined/undefined-1/international.md)
   * [통합 메시지 전송하기](undefined-6/undefined/undefined-2.md)
 * [결과 코드표](undefined-6/undefined-1.md)
+* [FAQ](undefined-6/faq.md)
