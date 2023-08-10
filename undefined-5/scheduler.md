@@ -13,22 +13,40 @@ description: AGENT의 메시지 전송 이외의 기능에 대한 설명입니�
 * 이미지 파일 명은 최대 40자까지이며 영문, 숫자를 권장합니다.
 * 파일 업로드 프로세스가 동작할 때 메시지 발송 건수가 많다면 업로드 프로세스는 skip 될 수 있습니다.
 
-#### **예제**
+### **예제(ORACLE)**
 
 ```sql
 # MMS 파일 업로드
-INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/test.jpg', 'MMS');
+INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/omniAgent-1.0.0/attachfile/test.jpg', 'MMS');
 ```
 
 ```sql
 # RCS 파일 업로드
-INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/test.jpg', 'RCS');
+INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/omniAgent-1.0.0/attachfile/test.jpg', 'RCS');
 ```
 
 ```sql
 # FRIENDTALK 파일 업로드
-INSERT INTO FILE_UPLOAD (file_path, channel_type, msg_type) VALUES ('D:/MySource/git_repository/OMNI_AGENT/omniAgent-1.0.0/attachfile/infobank_fi.jpg', 'FRIENDTALK', 'FI');
+INSERT INTO FILE_UPLOAD (file_path, channel_type, msg_type) VALUES ('D:/omniAgent-1.0.0/attachfile/infobank_fi.jpg', 'FRIENDTALK', 'FI');
 ```
+
+## 발송 차단 설정
+
+* msg\_banlist 테이블을 통하여 수신번호, 메시지 내용 항목에 대해 메시지 발송 시 차단하는 기능을 제공합니다.
+* 수신번호는 rta\_banlist 테이블에 입력 즉시 전송대상에서 차단됩니다.
+* 메시지 내용은 agent 메모리에 올리는 주기가 존재하여 일정 시간 이후에 차단 됩니다.
+* 갱신 주기는 msgConfig 파일의 scheduler.banCheck.interval 에서 설정 가능합니다.
+
+### 예제(ORACLE)
+
+```sql
+# 수신번호 차단
+INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'R','차단할수신번호','Y');
+```
+
+<pre class="language-sql"><code class="lang-sql"># 메시지 내용 차단
+<strong>INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'T','차단내용','Y');
+</strong></code></pre>
 
 ## 테이블 생성
 
@@ -40,21 +58,3 @@ INSERT INTO FILE_UPLOAD (file_path, channel_type, msg_type) VALUES ('D:/MySource
 
 * 전송이 완료되지 못한 발송 데이터들을 LOG 테이블로 이관하는 기능입니다.
 * 기본 4일 이전의 데이터들이 대상이며, msgConfig 파일의 scheduler.clean.tran.range configuration에서 범위를 조정할 수 있습니다.
-
-## 발송 차단 설정
-
-* msg\_banlist 테이블을 통하여 수신번호, 메시지 내용 항목에 대해 메시지 발송 시 차단하는 기능을 제공합니다.
-* 수신번호는 rta\_banlist 테이블에 입력 즉시 전송대상에서 차단됩니다.
-* 메시지 내용은 agent 메모리에 올리는 주기가 존재하여 일정 시간 이후에 차단 됩니다.
-* 갱신 주기는 msgConfig 파일의 scheduler.banCheck.interval 에서 설정 가능합니다.
-
-#### 예제
-
-```sql
-# 수신번호 차단
-INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'R','수신번호','Y');
-```
-
-<pre class="language-sql"><code class="lang-sql"># 메시지 내용 차단
-<strong>INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'T','차단내용','Y');
-</strong></code></pre>

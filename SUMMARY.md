@@ -24,7 +24,7 @@
 * [scheduler](undefined-5/scheduler.md)
 * [callback](undefined-5/callback.md)
 * [ha mode](undefined-5/ha-mode.md)
-* [UTIL](undefined-5/util.md)
+* [util](undefined-5/util.md)
 
 ## 전송하기
 

@@ -12,7 +12,7 @@ description: 메시지 별로 순차 Fallback 처리해주는 통합메시지를
 * DB에 데이터 입력 시 각각의 채널 전송에 필요한 데이터를 모두 기입하셔야 합니다. (채널 별 전송하기 참조)
 * 전송 시 최대 2개 채널의 Fallback이 가능합니다. (총 3개)
 
-## 예제
+## 예제(Oracle)
 
 1. alimtalk 실패 시 sms 발송 (alimtalk,sms)
 

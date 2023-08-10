@@ -1,7 +1,7 @@
 # INTERNATIONAL
 
 * 국제 발송의 경우 단일 발송만 가능합니다.
-* 수신번호는 국제번호의 형식으로 입력합니다.
+* 수신번호는 국제번호의 형식으로 입력합니다.(예시: +821012341234)
 
 ## 전송 관련 컬럼
 
@@ -14,6 +14,6 @@
 {% code overflow="wrap" fullWidth="true" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, mt_content) 
-values (sq_msg_tran_01.nextval, 'international', sysdate, '15882460', '+821056232189', 'international 국제 문자 테스트입니다.');
+values (sq_msg_tran_01.nextval, 'international', sysdate, '발신번호', '수신번호', 'international 국제 문자 테스트입니다.');
 ```
 {% endcode %}

@@ -14,8 +14,9 @@
 * ReportMigrator: REPORT 테이블의 데이터를 TRAN 테이블로 이관
 * LogMigrator: REPORT 수신이 완료된 TRAN 테이블의 데이터를 LOG 테이블로 이관
 * Scheduler
-  * FileUploadScheduler:
-  * TableCreateScheduler:
+  * FileUploadScheduler: file\_upload 테이블의 이미지 파일 등록 및 관리
+  * BanlistScheduler: msg\_banlist 테이블의 수신번호, 메시지 내용 항목에 대해 메시지 발송 시 차단
+  * TableCreateScheduler: 주기적으로 테이블을 조회하여 존재하지 않는 테이블을 자동으로 생성
   * TranCleanerScheduler: 결과 데이터가 갱신 되지 못한 발송 데이터를 LOG 테이블로 이관
 
 ## 메시지 처리 순서
