@@ -4,7 +4,7 @@ description: KKO 상세 메시지 타입 별 예제입니다.
 
 # 메시지 타입 별 예제(Oracle)
 
-### <예시 데이터>
+### 예시 데이터
 
 * 발신 프로필 키(Sender Key): “aaaaa22222bbbbb33333ccccc44444ddddd55555”
 * 템플릿 메시지: “Test Message 입니다.”
