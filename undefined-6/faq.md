@@ -6,7 +6,12 @@
 
 설치 후 OMNI Agent를 실행했는데, 토큰(TOKEN) 정보 요청 오류가 날 경우, 토큰 발급에 문제가 없는지 영업팀에 문의한다.
 
-연락처 :&#x20;
+```
+TEL: +82-31-628-1500 
+FAX: +82-31-628-1800 
+URL: http://www.infobank.net 
+E-mail: bizplus@infobank.net
+```
 
 ### 2.  방화벽 확인
 
