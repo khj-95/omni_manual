@@ -6,7 +6,8 @@ description: config 폴더 내부 dbConfig.yml 설정정보입니다.
 
 ## DBMS Connect (JDBC Setting)
 
-<pre class="language-yaml"><code class="lang-yaml">db:
+```yaml
+db:
   vender:
     type: VENDER(ORACLE, MYSQL, MSSQL, POSTGRE, TIBERO, MARIA, DB2)
 
@@ -19,8 +20,8 @@ description: config 폴더 내부 dbConfig.yml 설정정보입니다.
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
     #ORACLE
     url: jdbc:log4jdbc:oracle:thin:@${db.config.ip}:${db.config.port}:${db.config.database-name}
-<strong>    #MYSQL
-</strong>    url: jdbc:log4jdbc:mysql://${db.config.ip}:${db.config.port}/${db.config.database-name}
+    #MYSQL
+    url: jdbc:log4jdbc:mysql://${db.config.ip}:${db.config.port}/${db.config.database-name}
     #MSSQL
     url: jdbc:log4jdbc:sqlserver://${db.config.ip}:${db.config.port};SelectMethod=cursor;DatabaseName=${db.config.database-name};encrypt=false;trustServerCertificate=false;
     #POSTGRE
@@ -28,14 +29,14 @@ description: config 폴더 내부 dbConfig.yml 설정정보입니다.
     #TIBERO
     url: jdbc:log4jdbc:tibero:thin:@${db.config.ip}:${db.config.port}:${db.config.database-name}
     #MARIA
-    url: jdbc:log4jdbc:mariadb://${db.config.ip}:${db.config.port}/${db.config.database-name}?useUnicode=true&#x26;noAccessToProcedureBodies=true
+    url: jdbc:log4jdbc:mariadb://${db.config.ip}:${db.config.port}/${db.config.database-name}?useUnicode=true&noAccessToProcedureBodies=true
     #DB2
     url: jdbc:log4jdbc:db2://${db.config.ip}:${db.config.port}/${db.config.database-name}
 
     # ORACLE, TIBERO 일 경우 추가
     table-space: TABLE-SPACE-NAME
     table-index-space: TABLE-INDEX-SPACE-NAME
-</code></pre>
+```
 
 ## LOG 테이블 설정
 

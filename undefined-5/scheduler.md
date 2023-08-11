@@ -48,8 +48,11 @@ INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'R','차단할수신번
 ```
 {% endcode %}
 
-<pre class="language-sql" data-title="메시지 내용 차단" data-overflow="wrap"><code class="lang-sql"><strong>INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'T','차단내용','Y');
-</strong></code></pre>
+{% code title="메시지 내용 차단" %}
+```sql
+INSERT INTO MSG_BANLIST VALUES(sq_msg_banlist_01.nextval,'T','차단내용','Y');
+```
+{% endcode %}
 
 ## 테이블 생성
 

@@ -14,6 +14,9 @@ description: SMS 전송
 
 ### 예제(Oracle)
 
-<pre class="language-sql" data-title="sms" data-overflow="wrap" data-full-width="false"><code class="lang-sql"><strong>insert into msg_tran(client_key, channel_order, request_date, callback, recipient, mt_content) 
-</strong>values (sq_msg_tran_01.nextval, 'sms', sysdate, '15882460', '발신번호', 'sms 문자 테스트입니다.');
-</code></pre>
+{% code title="sms" overflow="wrap" fullWidth="false" %}
+```sql
+insert into msg_tran(client_key, channel_order, request_date, callback, recipient, mt_content) 
+values (sq_msg_tran_01.nextval, 'sms', sysdate, '15882460', '발신번호', 'sms 문자 테스트입니다.');
+```
+{% endcode %}
