@@ -33,6 +33,6 @@ DATABASE
 
 ## 네트워크 방화벽 허용
 
-> [https://omni.ibapi.kr](https://omni.ibapi.kr)
+> https://omni.ibapi.kr
 
 API 요청을 위해 OMNI API BaseURL에 방화벽 허용(Outbound)이 필요합니다.
