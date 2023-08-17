@@ -11,10 +11,33 @@ description: 사용자 함수
   * 경로 수정하기: config/msgConfig 파일의 callback.mtt.class configuration을 원하는 경로로 변경
 * 주로 수신번호, 메시지를 암호화하여 사용하거나, 값을 변경하여 전송하고자 할 경우 사용 할 수 있습니다.
 
-### interface
+### Interface
 
 ```java
 Boolean doTransform(IBUserObject userObject)
 ```
 
-<table><thead><tr><th width="155.92761394101876">doTransform</th><th>전송 데이터 조회 후 변환된 데이터를 return 받기 위해 호출되는 메소드</th></tr></thead><tbody><tr><td>Parameter</td><td>userObject: 참조 개체<br>채널 별 content, 수신번호, mms 제목을 포함하여 그 외의 여분 필드 10개</td></tr><tr><td>Return</td><td>boolean</td></tr><tr><td>class#method</td><td>ib.omni.agent.util#getMaskingPersonalInfo(String): LOG에 수신 번호 표출 시 마스킹 처리</td></tr></tbody></table>
+<table><thead><tr><th width="199.68981854610917">doTransform</th><th>전송 데이터 조회 후 변환된 데이터를 return 받기 위해 호출되는 메소드</th></tr></thead><tbody><tr><td>Parameter</td><td>userObject: 참조 개체<br>채널 별 content, 수신번호, mms 제목을 포함하여 그 외의 여분 필드 10개</td></tr><tr><td>Return</td><td>boolean</td></tr><tr><td>class#method</td><td>ib.omni.agent.util#getMaskingPersonalInfo(String): LOG에 수신 번호 표출 시 마스킹 처리</td></tr></tbody></table>
+
+#### MTTCallback  예시
+
+```java
+package ib.omni.agent.callback;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ib.omni.agent.util.StringUtil;
+
+public class SampleMTTCallback implements MTTCallback {
+	private static final Logger LOGGER = LoggerFactory.getLogger(SampleMTTCallback.class);
+
+	@Override
+	public boolean doTransform( IBUserObject userObject ) {
+		userObject.setMtContent( "transformed[" + userObject.getMtContent() + "]" );
+        	LOGGER.info("[Sample] maskingRecipientNum: " + StringUtil.getMaskingPersonalInfo(userObject.getRecipient()));
+        	userObject.setRecipient( "transformed[" + userObject.getRecipient() + "]" );
+        	return true;
+	}
+}
+```
