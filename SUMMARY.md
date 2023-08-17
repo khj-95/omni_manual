@@ -1,6 +1,6 @@
 # Table of contents
 
-* [OmniAgent](README.md)
+* [OMNI Agent](README.md)
 * [준비하기](undefined.md)
 * [설치/실행/제거하기](undefined-4/README.md)
   * [Linux/Unix](undefined-4/linux-unix.md)

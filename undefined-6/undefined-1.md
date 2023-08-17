@@ -1,6 +1,6 @@
 # 결과 코드표
 
-* agent 내부 결과 코드를 제외한 코드는 omniApi 서버 코드표 '[omni\_code](https://omniapi.gitbook.io/omni-api-specification/api-reference/code)'에서 확인할 수 있습니다.
+* agent 내부 결과 코드를 제외한 코드는 OMNI API 서버 코드표 '[omni\_code](https://omniapi.gitbook.io/omni-api-specification/api-reference/code)'에서 확인할 수 있습니다.
 
 ## AGENT CODE
 

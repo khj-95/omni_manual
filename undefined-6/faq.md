@@ -1,6 +1,6 @@
 # FAQ
 
-## OmniAgent 설정 관련 FAQ
+## OMNI Agent 설정 관련 FAQ
 
 ### 1. 인증 아이디 오류
 
@@ -17,19 +17,21 @@ E-mail: bizplus@infobank.net
 
 Infobank G/W에 접속이 안될 경우 방화벽을 체크한다.
 
-#### OMNI API 서버, DNS lookup 가능한 경우
+#### OMNI API 서버, DNS lookup 가능
 
 ```
 telnet omni.ibapi.kr 443
 ```
 
-#### OMNI API 서버, DNS lookup 불가능 경우
+#### OMNI API 서버, DNS lookup 불가능
 
 Infobank 서비스 문의 응대 담당자로부터 IP를 요청하여 연동한다.
 
 ### 3. Windows 환경에서 한 서버에 여러 EMMA 설치 시 서비스 수동 등록
 
-Windows에서 여러 EMMA를 설치 시 서비스 명이 동일하기 때문에 기존 서비스 명을 덮어쓰게 된다. 이 경우는 Service를 수동으로 등록하여 주어야 한다.
+Windows에서 여러 EMMA를 설치 시 서비스 명이 동일하기 때문에 기존 서비스 명을 덮어쓰게 된다.&#x20;
+
+이 경우는 Service를 수동으로 등록하여 주어야 한다.
 
 #### Windows 서비스 수동 등록 방법
 
