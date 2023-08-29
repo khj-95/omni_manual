@@ -4,14 +4,7 @@
 
 ### 1. 인증 아이디 오류
 
-설치 후 OMNI Agent를 실행했는데, 토큰(TOKEN) 정보 요청 오류가 날 경우, 토큰 발급에 문제가 없는지 Infobank에문의한다.
-
-```
-TEL: +82-31-628-1500 
-FAX: +82-31-628-1800 
-URL: http://www.infobank.net 
-E-mail: bizplus@infobank.net
-```
+설치 후 OMNI Agent를 실행했는데, 토큰(TOKEN) 정보 요청 오류가 날 경우, 토큰 발급에 문제가 없는지 Infobank에 문의한다.
 
 ### 2. 방화벽 확인
 
@@ -29,7 +22,7 @@ Infobank 서비스 문의 응대 담당자로부터 IP를 요청하여 연동한
 
 ### 3. Windows 환경에서 한 서버에 여러 EMMA 설치 시 서비스 수동 등록
 
-Windows에서 여러 EMMA를 설치 시 서비스 명이 동일하기 때문에 기존 서비스 명을 덮어쓰게 된다.&#x20;
+Windows에서 여러 EMMA를 설치 시 서비스 명이 동일하기 때문에 기존 서비스 명을 덮어쓰게 된다.
 
 이 경우는 Service를 수동으로 등록하여 주어야 한다.
 
