@@ -1,4 +1,8 @@
-# LOG 설정파일 (logback.xml)
+---
+description: config 폴더 내부 logback.xml 설정정보입니다.
+---
+
+# LOG 설정 파일
 
 * OMNI Agent는 기본적으로 자바 오픈 소스 로깅 프레임워크인 logback을 사용합니다.
 
