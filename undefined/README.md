@@ -1,5 +1,5 @@
 ---
-description: Agent를 사용하기 위한 요구사항입니다.
+description: OMNI Agent를 사용하기 위한 요구사항입니다.
 ---
 
 # 시작하기
