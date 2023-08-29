@@ -14,11 +14,11 @@
 
 ## 기능
 
-* [worker](undefined-2/worker.md)
-* [scheduler](undefined-2/scheduler.md)
-* [callback](undefined-2/callback.md)
-* [ha mode](undefined-2/ha-mode.md)
-* [util](undefined-2/util.md)
+* [WORKER](undefined-2/worker.md)
+* [SCHEDULER](undefined-2/scheduler.md)
+* [CALLBACK](undefined-2/callback.md)
+* [HA MODE](undefined-2/ha-mode.md)
+* [UTIL](undefined-2/util.md)
 
 ## 전송하기
 

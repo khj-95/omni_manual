@@ -1,3 +1,7 @@
+---
+description: OMNI Agent의 TABLE SCHEMA입니다.
+---
+
 # TABLE SCHEMA
 
 ## TABLE LIST
@@ -40,10 +44,10 @@
 
 <table data-full-width="true"><thead><tr><th width="182.6057347670251">COLUMN_NAME</th><th width="235">DATA_TYPE</th><th width="124">NULLABLE</th><th width="106">DEFAULT</th><th width="264">COMMENTS</th></tr></thead><tbody><tr><td>FILE_SEQ</td><td>NUMBER(20,0)</td><td>No</td><td></td><td>파일 순번</td></tr><tr><td>FILE_PATH</td><td>VARCHAR2(100 BYTES)</td><td>No</td><td></td><td>대상 파일 저장 위치(디렉토리 및 파일명 포함)</td></tr><tr><td>FILE_STATUS</td><td>VARCHAR2(1 BYTE)</td><td>No</td><td>'1'</td><td>파일업로드 상태(1:대기, 2:완료)</td></tr><tr><td>CHANNEL_TYPE</td><td>VARCHAR2(10 BYTES)</td><td>No</td><td></td><td>이미지가 사용될 메시지 타입(MMS, RCS)</td></tr><tr><td>MSG_TYPE</td><td>VARCHAR2(10 BYTES)</td><td>Yes</td><td></td><td>상세 메시지 타입(FRIENDTALK사용 시, FI/FW/FL/FC 사용)</td></tr><tr><td>FILE_KEY</td><td>VARCHAR2(200 BYTES)</td><td>Yes</td><td></td><td>파일키(업로드 후 파일서버에서 발급)</td></tr><tr><td>FILE_EXPIRED</td><td>VARCHAR2(14 BYTES)</td><td>Yes</td><td></td><td>파일만료시간(yyyyMMDDHHMMSS)</td></tr><tr><td>RESULT_CODE</td><td>VARCHAR2(4 BYTES)</td><td>Yes</td><td></td><td>파일업로드 결과코드</td></tr><tr><td>RESULT_MSG</td><td>VARCHAR2(100 BYTES)</td><td>Yes</td><td></td><td>파일업로드 결과메시지</td></tr><tr><td>REG_DATE</td><td>TIMESTAMP(6)</td><td>Yes</td><td>sysdate</td><td>데이터 등록일자</td></tr></tbody></table>
 
-## DB  벤더사별 TABLE SCHEMA
+## DB 벤더사별 TABLE SCHEMA
 
-{% file src=".gitbook/assets/omni_agent DB 스키마(mssql).xlsx" %}
+{% file src="../.gitbook/assets/omni_agent DB 스키마(mssql).xlsx" %}
 
-{% file src=".gitbook/assets/omni_agent DB 스키마(mysql, maria).xlsx" %}
+{% file src="../.gitbook/assets/omni_agent DB 스키마(mysql, maria).xlsx" %}
 
-{% file src=".gitbook/assets/omni_agent DB 스키마(oracle, tibero).xlsx" %}
+{% file src="../.gitbook/assets/omni_agent DB 스키마(oracle, tibero).xlsx" %}

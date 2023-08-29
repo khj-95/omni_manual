@@ -1,8 +1,8 @@
 ---
-description: AGENT의 메시지전송과 관련된 worker에 대한 설명입니다.
+description: 메시지 전송과 관련된 worker에 대한 설명입니다.
 ---
 
-# worker
+# WORKER
 
 ### collector
 

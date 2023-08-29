@@ -1,5 +1,5 @@
 ---
-description: OmniAgent를 설치한 후의 directory 구조입니다.
+description: OMNI Agent를 설치한 후의 directory 구조입니다.
 ---
 
 # 디렉토리 구조

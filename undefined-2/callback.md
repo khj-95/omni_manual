@@ -1,8 +1,8 @@
 ---
-description: 사용자 함수
+description: 사용자 함수에 관한 설명입니다.
 ---
 
-# callback
+# CALLBACK
 
 * DB에서 Record 검색 후 사용자 함수를 호출할 수 있도록 인터페이스를 정의하여 제공하고 있습니다.
 * 아래 함수는 특정 필드의 값을 가공하기 위해 호출되는 프로세스를 정의한 인터페이스 입니다.
@@ -19,7 +19,7 @@ Boolean doTransform(IBUserObject userObject)
 
 <table><thead><tr><th width="199.68981854610917">doTransform</th><th>전송 데이터 조회 후 변환된 데이터를 return 받기 위해 호출되는 메소드</th></tr></thead><tbody><tr><td>Parameter</td><td>userObject: 참조 개체<br>채널 별 content, 수신번호, mms 제목을 포함하여 그 외의 여분 필드 10개</td></tr><tr><td>Return</td><td>boolean</td></tr><tr><td>class#method</td><td>ib.omni.agent.util#getMaskingPersonalInfo(String): LOG에 수신 번호 표출 시 마스킹 처리</td></tr></tbody></table>
 
-#### MTTCallback  예시
+#### MTTCallback 예시
 
 ```java
 package ib.omni.agent.callback;

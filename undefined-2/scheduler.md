@@ -1,8 +1,8 @@
 ---
-description: AGENT의 메시지 전송 이외의 기능에 대한 설명입니다.
+description: 메시지 전송 이외의 기능에 대한 설명입니다.
 ---
 
-# scheduler
+# SCHEDULER
 
 ## 파일 업로드 : 이미지 파일 키 발급
 
