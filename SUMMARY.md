@@ -43,8 +43,6 @@
 
 ## Support
 
-* [SYSTEM](support/system.md)
-* [DATABASE](support/database.md)
 * [FAQ](support/faq.md)
 * [문의하기](support/undefined.md)
 
