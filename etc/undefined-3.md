@@ -14,6 +14,10 @@ description: OMNI Agent 성능 측정 결과입니다.
 
 ### **send session 개수**: 20개
 
-## 테스트 결과
+## 테스트결과
 
-<table data-full-width="true"><thead><tr><th>DB</th><th>세션수</th><th>시작 시간</th><th>종료 시간</th><th>진행 시간</th><th>진행 시간(분)</th><th>평균</th><th>전체 평균</th></tr></thead><tbody><tr><td>Oracle</td><td>20개</td><td>16:37:17</td><td>16:49:50</td><td>0:12:33</td><td>12.55</td><td>39841</td><td>39841</td></tr><tr><td>Mysql</td><td>20개</td><td>16:27:20</td><td>16:40:52</td><td>0:13:32</td><td>13.533</td><td>36946</td><td>36946</td></tr><tr><td>Mssql</td><td>20개</td><td>23:16:25</td><td>23:30:44</td><td>0:14:19</td><td>14.317</td><td>34924</td><td>34924</td></tr></tbody></table>
+{% hint style="info" %}
+처리 속도는 서버 성능 및 네트워크 전송 속도에 따라 차이가 날 수 있습니다.
+{% endhint %}
+
+<table data-full-width="false"><thead><tr><th align="center">DB</th><th align="center">세션수</th><th align="center">건수/min</th><th align="center">건수/hour</th></tr></thead><tbody><tr><td align="center">Oracle</td><td align="center">20개</td><td align="center">39841</td><td align="center">2390460</td></tr><tr><td align="center">Mysql</td><td align="center">20개</td><td align="center">36946</td><td align="center">2216760</td></tr><tr><td align="center">Mssql</td><td align="center">20개</td><td align="center">34924</td><td align="center">2095440</td></tr></tbody></table>
