@@ -10,13 +10,7 @@
 *   매개변수 "-c"를 입력하여 실행 후 설치마법사를 따라 설치합니다.
 
     ```
-    Starting Installer ...
-    컴퓨터에 OMNI을(를) 설치합니다.
-    확인 [o, [Enter]], 취소 [c]
-
-    어디에 OMNI을(를) 설치하시겠습니까?
-    [/home/msdev/gyoung/omni_agent]
-    [설^C[msdev@devapp ~]$ ./OMNI_unix_1.0.0.sh
+    shell> ./OMNI_unix_1.0.0.sh -c
     Starting Installer ...
     컴퓨터에 OMNI을(를) 설치합니다.
     확인 [o, [Enter]], 취소 [c]
