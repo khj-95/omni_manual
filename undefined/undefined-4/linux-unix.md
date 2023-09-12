@@ -1,11 +1,5 @@
 # Linux/Unix
 
-## 설치 파일
-
-{% file src="../../.gitbook/assets/OMNI_unix_1.0.0.sh" %}
-
-{% file src="../../.gitbook/assets/OMNI_unix_1.0.0.tar.gz" %}
-
 ## 설치하기
 
 *   업로드한 설치 파일(OMNI\_unix\_1.0.0.sh)에 실행 권한을 부여합니다.

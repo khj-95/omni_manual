@@ -1,11 +1,5 @@
 # Windows
 
-## 설치 파일
-
-{% file src="../../.gitbook/assets/OMNI_windows_1.0.0.exe" %}
-
-{% file src="../../.gitbook/assets/OMNI_windows_1.0.0_64bit.exe" %}
-
 ## 설치하기
 
 * 설치파일을 더블 클릭하여 실행된 마법사를 따라 설치합니다.\
