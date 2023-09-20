@@ -17,6 +17,6 @@ description: SMS 전송
 {% code title="sms" overflow="wrap" fullWidth="false" %}
 ```sql
 insert into msg_tran(client_key, channel_order, request_date, callback, recipient, mt_content) 
-values (sq_msg_tran_01.nextval, 'sms', sysdate, '15882460', '발신번호', 'sms 문자 테스트입니다.');
+values (sq_msg_tran_01.nextval, 'sms', sysdate, '발신번호', '수신번호', 'sms 문자 테스트입니다.');
 ```
 {% endcode %}
