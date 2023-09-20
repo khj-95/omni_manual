@@ -17,19 +17,19 @@ description: 메시지 전송 이외의 기능에 대한 설명입니다.
 
 {% code title="MMS 파일 업로드" overflow="wrap" %}
 ```sql
-INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/omniAgent-1.0.0/attachfile/test.jpg', 'MMS');
+INSERT INTO FILE_UPLOAD (file_seq, file_path, channel_type) VALUES (sq_file_upload_01.nextval, 'C:\Infobank\OMNI-1.0.0\attach_file\mms/test.jpg', 'MMS');
 ```
 {% endcode %}
 
 {% code title="RCS 파일 업로드" overflow="wrap" %}
 ```sql
-INSERT INTO FILE_UPLOAD (file_path, channel_type) VALUES ('D:/omniAgent-1.0.0/attachfile/test.jpg', 'RCS');
+INSERT INTO FILE_UPLOAD (file_seq, file_path, channel_type) VALUES (sq_file_upload_01.nextval, 'C:\Infobank\OMNI-1.0.0\attach_file\rcs/test.jpg',  'RCS');
 ```
 {% endcode %}
 
 {% code title="FRIENDTALK 파일 업로드" overflow="wrap" %}
 ```sql
-INSERT INTO FILE_UPLOAD (file_path, channel_type, msg_type) VALUES ('D:/omniAgent-1.0.0/attachfile/infobank_fi.jpg', 'FRIENDTALK', 'FI');
+INSERT INTO FILE_UPLOAD (file_seq, file_path, channel_type, msg_type) VALUES ('sq_file_upload_01.nextval, 'C:\Infobank\OMNI-1.0.0\attach_file\/infobank_fi.jpg', 'FRIENDTALK', 'FI');
 ```
 {% endcode %}
 
