@@ -48,4 +48,4 @@
 
 ***
 
-* [Revision History](revision-history.md)
+* [개정 이력](undefined-4.md)
