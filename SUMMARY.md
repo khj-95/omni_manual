@@ -1,6 +1,6 @@
 # Table of contents
 
-* [상품 소개](README.md)
+* [Infobank OMNI Agent](README.md)
 * [시작하기](undefined/README.md)
   * [설치/실행/제거](undefined/undefined-4/README.md)
     * [Linux/Unix](undefined/undefined-4/linux-unix.md)
