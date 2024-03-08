@@ -31,7 +31,7 @@ description: alimtalk, friendtalk 전송 시 공통 입력 컬럼에 대한 상�
 ## FRIENDTALK
 
 {% hint style="danger" %}
-친구톡 서비스는 2023년 12월 31일 종료 예정 입니다.
+친구톡 서비스는 2024년 12월 31일 종료 예정 입니다.
 {% endhint %}
 
 * 이미지가 포함된 친구톡을 전송할 경우 사전에 이미지 파일 등록이 필요 합니다. 이미지 url 생성을 위해서는 '[FILE UPLOAD API](https://omniapi.gitbook.io/omni-api-specification/api-reference/registration/file)' 를 참조해 주세요.
