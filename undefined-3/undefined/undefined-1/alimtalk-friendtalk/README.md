@@ -26,7 +26,7 @@ description: alimtalk, friendtalk 전송 시 공통 입력 컬럼에 대한 상�
 
 ### **선택 입력 컬럼**
 
-<table><thead><tr><th width="204.12060301507535">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>kko_option</td><td><ul><li>카카오 옵션 입력정보(json형태) - 강조문구, 버튼</li><li>기타 옵션정보를 입력하는 컬럼입니다.</li><li>title, attatchment, price, currencyType, supplement 옵션을 입력할 수 있습니다.</li><li>옵션의 상세 type과 description은 '<a href="https://omniapi.gitbook.io/omni-api-specification/api-reference/send/omni#alimtalk">alimtalk_api</a>'를 참고하여 입력하세요.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="204.12060301507535">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>kko_option</td><td><ul><li>카카오 옵션 입력정보(json형태) - 강조문구, 버튼</li><li>기타 옵션정보를 입력하는 컬럼입니다.</li><li>title, attatchment, price, currencyType, supplement 옵션을 입력할 수 있습니다.</li><li>옵션의 상세 type과 description은 '<a href="https://infobank-guide.gitbook.io/omni_api/api-reference/send/kakao#alimtalk">alimtalk_api</a>'를 참고하여 입력하세요.</li></ul></td></tr></tbody></table>
 
 ## FRIENDTALK
 
@@ -38,4 +38,4 @@ description: alimtalk, friendtalk 전송 시 공통 입력 컬럼에 대한 상�
 
 ### 선택 입력 컬럼
 
-<table><thead><tr><th width="211.12060301507535">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>kko_option</td><td><ul><li>카카오 옵션 입력정보(json형태) - 강조문구, 버튼</li><li>기타 옵션정보를 입력하는 컬럼입니다.</li><li>adFlag, attatchment옵션을 입력할 수 있습니다.</li><li>type과 description 정보는 '<a href="https://omniapi.gitbook.io/omni-api-specification/api-reference/send/omni#friendtalk">friendtalk_api</a>'를 참고하여 입력하세요.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="211.12060301507535">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>kko_option</td><td><ul><li>카카오 옵션 입력정보(json형태) - 강조문구, 버튼</li><li>기타 옵션정보를 입력하는 컬럼입니다.</li><li>adFlag, attatchment옵션을 입력할 수 있습니다.</li><li>type과 description 정보는 '<a href="https://infobank-guide.gitbook.io/omni_api/api-reference/send/kakao#friendtalk">friendtalk_api</a>'를 참고하여 입력하세요.</li></ul></td></tr></tbody></table>
