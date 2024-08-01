@@ -42,4 +42,4 @@ description: alimtalk, friendtalk 전송 시 공통 입력 컬럼에 대한 상�
 
 ## 예제(Oracle)
 
-[메시지 타입 별 예제(Oracle) ](./)참고
+[메시지 타입 별 예제(Oracle) ](oracle.md)참고
