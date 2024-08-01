@@ -9,7 +9,7 @@ description: 메시지 별로 순차 Fallback 처리해주는 통합메시지를
 * 예시\
   channel\_order 컬럼 값: alimtalk,rcs,sms\
   alimtalk 실패 시 rcs 발송. rcs 실패 시 sms 발송
-* DB에 데이터 입력 시 각각의 채널 전송에 필요한 데이터를 모두 기입하셔야 합니다. (채널 별 전송하기 참조)
+* DB에 데이터 입력 시 각각의 채널 전송에 필요한 데이터를 모두 기입하셔야 합니다. ([채널 별 전송하기](undefined-1/rcs/oracle.md)[ ](undefined-1/)참조)
 * 전송 시 최대 2개 채널의 Fallback이 가능합니다. (총 3개)
 
 ## 예제(Oracle)

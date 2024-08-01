@@ -39,3 +39,7 @@ description: alimtalk, friendtalk 전송 시 공통 입력 컬럼에 대한 상�
 ### 선택 입력 컬럼
 
 <table><thead><tr><th width="211.12060301507535">COLUMN</th><th>입력값</th></tr></thead><tbody><tr><td>kko_option</td><td><ul><li>카카오 옵션 입력정보(json형태) - 강조문구, 버튼</li><li>기타 옵션정보를 입력하는 컬럼입니다.</li><li>adFlag, attatchment옵션을 입력할 수 있습니다.</li><li><mark style="color:red;"><strong>옵션의 상세 type과 description 정보는</strong></mark><strong> </strong><mark style="color:red;background-color:red;"><strong>'</strong></mark><a href="https://infobank-guide.gitbook.io/omni_api/api-reference/send/kakao#friendtalk"><mark style="color:red;background-color:red;"><strong>friendtalk_api</strong></mark></a><mark style="color:red;background-color:red;"><strong>'</strong><strong>를 참고하여 입력하세요.</strong></mark></li></ul></td></tr></tbody></table>
+
+## 예제(Oracle)
+
+[메시지 타입 별 예제(Oracle) ](./)참고

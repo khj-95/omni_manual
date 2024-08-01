@@ -59,3 +59,17 @@ displayName= "OMNI_SVC1" type= own start= auto
 OMNI Agent는 DB 연동 방식이며 서비스 로그를 월별 로그 테이블을 생성하여 저장하므로 테이블에 대한 생성 권한이 주어져야 한다.
 
 </details>
+
+## 전송하기관련 FAQ
+
+<details>
+
+<summary>RCS 템플릿 조회</summary>
+
+[RCS Biz Center](https://www.rcsbizcenter.com/main) 접속  > 기술지원 > RCS Biz Center Open API 바로가기
+
+1. POST /token Access 토큰을 발급 요청합니다.&#x20;
+2. 발급 받은 토큰을 Authrozie 버튼 클릭 후 입력합니다.&#x20;
+3. GET /brand/{brandId}/messagebase/{messagebaseId} 브랜드에 등록된 지정 템플릿 상세 내역을 조회합니다.
+
+</details>
