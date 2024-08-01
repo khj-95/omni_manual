@@ -3,13 +3,13 @@
 ## 설치하기
 
 * 설치파일을 더블 클릭하여 실행된 마법사를 따라 설치합니다.\
-  ![](<../../.gitbook/assets/image (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1).png>)
 * OMNI AGENT가 설치될 경로를 설정하고 '다음(N)>' 버튼을 클릭합니다.\
-  ![](<../../.gitbook/assets/image (2).png>)
+  ![](<../../.gitbook/assets/image (2) (1).png>)
 * 바로 가기 버튼을 생성할지, 시작 메뉴 폴더 생성을 안할지 선택 한 후 '다음(N)' 버튼을 클릭합니다.\
-  ![](<../../.gitbook/assets/image (3).png>)
+  ![](<../../.gitbook/assets/image (3) (1).png>)
 * OMNI 계정 아이디와 비밀번호를 입력하고 '다음(N)' 버튼을 클릭합니다. (해당 부분 입력하지 않아도 추후 \~omni설치폴더\conf\msgconfig.yml 파일에서 수정 가능합니다.)\
-  ![](<../../.gitbook/assets/image (4).png>)
+  ![](<../../.gitbook/assets/image (4) (1).png>)
 * 접속할 데이터베이스 종류를 선택하고 데이터베이스 정보들을 입력한 후 '다음(N)' 버튼을 클릭합니다. (해당 부분 입력하지 않아도 추후 \~omni설치폴더\conf\dbconfig.yml 파일에서 수정 가능합니다.)\
   ![](<../../.gitbook/assets/image (5).png>)
 * Window 서비스에 등록할지, 부팅 시 시작할지 선택 한 후 '다음(N)' 버튼을 클릭합니다. (서비스 수동 등록 및 삭제를 위해서는 CMD에서 sc create, sc delete 명령어를 이용해 주세요.)\

@@ -68,8 +68,20 @@ OMNI Agent는 DB 연동 방식이며 서비스 로그를 월별 로그 테이블
 
 [RCS Biz Center](https://www.rcsbizcenter.com/main) 접속  > 기술지원 > RCS Biz Center Open API 바로가기
 
-1. POST /token Access 토큰을 발급 요청합니다.&#x20;
-2. 발급 받은 토큰을 Authrozie 버튼 클릭 후 입력합니다.&#x20;
-3. GET /brand/{brandId}/messagebase/{messagebaseId} 브랜드에 등록된 지정 템플릿 상세 내역을 조회합니다.
+<img src="../.gitbook/assets/image.png" alt="" data-size="line">
+
+<img src="../.gitbook/assets/image (1).png" alt="" data-size="original">
+
+1.  POST /token Access 토큰을 발급 요청합니다.&#x20;
+
+    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>clientId 및 clientSecret 정보 확인</p></figcaption></figure>
+2.  발급 받은 토큰을 Authrozie 버튼 클릭 후 입력합니다.&#x20;
+
+    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+3.  GET /brand/{brandId}/messagebase/{messagebaseId} 브랜드에 등록된 지정 템플릿 상세 내역을 조회합니다.
+
+    <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 </details>
